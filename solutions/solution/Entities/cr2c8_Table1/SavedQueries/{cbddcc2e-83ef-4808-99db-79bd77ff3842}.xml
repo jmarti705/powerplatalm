@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cbddcc2e-83ef-4808-99db-79bd77ff3842}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr2c8_id" select="1" icon="1" preview="1">
+        <row name="result" id="cr2c8_table1id">
+          <cell name="cr2c8_id" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr2c8_table1">
+          <attribute name="cr2c8_table1id" />
+          <attribute name="cr2c8_id" />
+          <attribute name="createdon" />
+          <order attribute="cr2c8_id" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Table1 Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

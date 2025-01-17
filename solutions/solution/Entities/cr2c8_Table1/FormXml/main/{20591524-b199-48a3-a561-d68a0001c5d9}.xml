@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{20591524-b199-48a3-a561-d68a0001c5d9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{f864c70d-6273-4ffe-a4a8-d6fe805fe13d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cc0765a0-fbd3-49d6-9eb0-9aec63dd26ce}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5383c062-5050-4ade-8237-afa94cdf7303}">
+                        <labels>
+                          <label description="Id" languagecode="1033" />
+                        </labels>
+                        <control id="cr2c8_id" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr2c8_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9cbf280a-a8e5-4060-bc05-ca53ac533d08}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{34c9537d-8507-4f89-8b94-57efe5fd8a5e}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="New SG control 1737062910864" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{201c88c6-ee59-4096-b05c-53aa3a28e026}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName />
+                            <TargetEntityType>systemuser</TargetEntityType>
+                            <ViewId>{00000000-0000-0000-00AA-000010001019}</ViewId>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001019}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{02eae31d-4202-4335-bb0e-4411d803d37d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a17e76b5-8e6f-4f40-92b6-2ded8ffe7de9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ef13e51f-8022-4bb6-a0e8-92c5013160a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{11efdfe6-f729-4baf-ae53-3942b4d59d03}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0be9ebc2-1967-4a63-afb5-8c90b9323140}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{21a28178-3688-46fc-972f-712e9f134165}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{933dab90-b121-474d-ba9f-9fd50a763acf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{33da22f5-c384-46b7-9750-492940b7ad5d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{201c88c6-ee59-4096-b05c-53aa3a28e026}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <RecordsPerPage>4</RecordsPerPage>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <EnableChartPicker>true</EnableChartPicker>
+              <ChartGridMode>All</ChartGridMode>
+              <TargetEntityType>systemuser</TargetEntityType>
+              <ViewId>{00000000-0000-0000-00AA-000010001019}</ViewId>
+              <ViewIds>{00000000-0000-0000-00AA-000010001019}</ViewIds>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="mypub_ReactSample.ReactSampleDataset">
+            <parameters>
+              <data-set name="sampleDataSet">
+                <ViewId>{00000000-0000-0000-00aa-000010001019}</ViewId>
+                <TargetEntityType>systemuser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds>{00000000-0000-0000-00AA-000010001019}</FilteredViewIds>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="mypub_ReactSample.ReactSampleDataset">
+            <parameters>
+              <data-set name="sampleDataSet">
+                <ViewId>{00000000-0000-0000-00aa-000010001019}</ViewId>
+                <TargetEntityType>systemuser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds>{00000000-0000-0000-00AA-000010001019}</FilteredViewIds>
+              </data-set>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="mypub_ReactSample.ReactSampleDataset">
+            <parameters>
+              <data-set name="sampleDataSet">
+                <ViewId>{00000000-0000-0000-00aa-000010001019}</ViewId>
+                <TargetEntityType>systemuser</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName />
+                <FilteredViewIds>{00000000-0000-0000-00AA-000010001019}</FilteredViewIds>
+              </data-set>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
