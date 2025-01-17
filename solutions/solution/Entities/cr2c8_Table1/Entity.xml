@@ -404,10 +404,10 @@
             <Description description="Unique identifier of the delegate user who modified the record." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="mypub_Deploy">
+        <attribute PhysicalName="mypub_Test2">
           <Type>nvarchar</Type>
-          <Name>mypub_deploy</Name>
-          <LogicalName>mypub_deploy</LogicalName>
+          <Name>mypub_test2</Name>
+          <LogicalName>mypub_test2</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -438,7 +438,7 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Deploy" languagecode="1033" />
+            <displayname description="Test2" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
